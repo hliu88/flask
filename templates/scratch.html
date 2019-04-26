@@ -1,0 +1,64 @@
+<!--
+Guanchen Liu
+SLDP project
+20190303
+-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel= stylesheet type= text/css href= "{{ url_for('static',filename='main.css') }}">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+</head>
+<title>Land and Sea Rover</title>
+<body class="is-preload">
+    <div id="wrapper">
+        <header id="header">
+            <h1>Land and Sea Rover</h1>
+            <p>by GRAM Corp.</p>
+        </header>
+        <div id="main">
+            <section id="content" class="main">
+            <!--	<span class="image main"><img src="images/pic04.jpg" alt="" /></span> -->
+                <h1><b>Rover Data</b></h1>
+                <h3> {{serialData1}} </h3>
+                <h3> {{serialData2}} </h3>
+               <meta http-equiv="refresh" content = "5">
+            </section>
+        </div>
+        <footer id="footer">
+            <section>
+                <h2>About</h2>
+                <p>The rover, designed to traverse both land and sea, seeks to collect data on the impacts of garbage on
+                    both land and sea. Designed by Mearez Ahmed, Guanchen Liu,  and Ruhejami Mustari.
+            <!--	<ul class="actions">
+                    <li><a href="#" class="button" target = "_blank">>Learn More</a></li>
+                </ul>--->
+            </section>
+            <section>
+                <h2>More</h2>
+                <dl class="alt">
+                    <dt>Address</dt>
+                    <dd>6 MetroTech Center, Brooklyn, NY 11201</dd>
+                    <dt>Phone</dt>
+                    <dd>(999) 000-0000</dd>
+                    <dt>Email</dt>
+                    <dd><a href="#">sldp.rover@gram.org</a></dd>
+                </dl>
+            </section>
+            <p class="copyright">&copy; 2019 GRAM Corp.</p>
+        </footer>
+
+    </div>
+
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/jquery.scrollex.min.js"></script>
+        <script src="assets/js/jquery.scrolly.min.js"></script>
+        <script src="assets/js/browser.min.js"></script>
+        <script src="assets/js/breakpoints.min.js"></script>
+        <script src="assets/js/util.js"></script>
+        <script src="assets/js/main.js"></script>
+
+</body>
+</html>
